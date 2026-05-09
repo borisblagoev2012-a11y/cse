@@ -109,7 +109,7 @@ client.on("interactionCreate", async interaction => {
             );
 
             await axios.post(
-                "https://cse-website-mnys.onrender.com/api/event",
+                "https://cse-website-mnys.onrender.com/api/set-event",
                 activeEvent
             );
 
