@@ -1,0 +1,31 @@
+{
+    "events": [
+        {
+            "id": "race-night",
+            "name": "Race Night",
+            "description": "High-speed competitive racing event across custom tracks.",
+            "type": "Racing",
+            "difficulty": "Medium",
+            "maxParticipants": 25,
+            "banner": "/images/race-night.png"
+        },
+        {
+            "id": "patrol-operation",
+            "name": "Patrol Operation",
+            "description": "Large-scale law enforcement patrol simulation.",
+            "type": "Roleplay",
+            "difficulty": "Hard",
+            "maxParticipants": 40,
+            "banner": "/images/patrol.png"
+        },
+        {
+            "id": "summit-response",
+            "name": "Summit Response",
+            "description": "Emergency response coordination across the county.",
+            "type": "Emergency",
+            "difficulty": "Hard",
+            "maxParticipants": 35,
+            "banner": "/images/summit-response.png"
+        }
+    ]
+}

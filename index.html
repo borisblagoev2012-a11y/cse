@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8" />
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    />
+
+    <title>
+        Central Summit Events
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    />
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    />
+
+</head>
+
+<body>
+
+<div class="background-glow"></div>
+
+<div class="particles"></div>
+
+<header class="main-header">
+
+    <div class="header-left">
+
+        <img
+            src="logo.png"
+            class="header-logo"
+        >
+
+        <div class="header-text">
+
+            <h1>CSE</h1>
+
+            <span>
+                Central Summit Events
+            </span>
+
+        </div>
+
+    </div>
+
+    <nav class="header-nav">
+
+        <a href="#stats">
+            Stats
+        </a>
+
+        <a href="#event">
+            Current Event
+        </a>
+
+        <a href="#links">
+            Links
+        </a>
+
+    </nav>
+
+</header>
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <img
+            src="logo.png"
+            class="hero-logo"
+        >
+
+        <h1>
+            Central Summit Events
+        </h1>
+
+        <p>
+            Professional ER:LC Event Community
+        </p>
+
+        <div class="hero-buttons">
+
+            <a
+                href="https://discord.gg/f8S5vDsWnM"
+                target="_blank"
+                class="primary-btn"
+            >
+                Join Discord
+            </a>
+
+            <a
+                href="https://www.roblox.com/games/start?launchData=%7B%22psCode%22%3A%22CSE%22%7D&placeId=2534724415"
+                target="_blank"
+                class="secondary-btn"
+            >
+                Join Server
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section
+    class="stats-section"
+    id="stats"
+>
+
+    <div class="section-title">
+        LIVE SERVER STATS
+    </div>
+
+    <div class="stats-grid">
+
+        <div class="glass-card stat-card">
+
+            <span class="stat-title">
+                DISCORD MEMBERS
+            </span>
+
+            <h2 id="discordMembers">
+                0
+            </h2>
+
+            <span class="status online">
+                ● LIVE
+            </span>
+
+        </div>
+
+        <div class="glass-card stat-card">
+
+            <span class="stat-title">
+                ER:LC PLAYERS
+            </span>
+
+            <h2 id="erlcPlayers">
+                0 / 0
+            </h2>
+
+            <span class="status online">
+                ● SERVER ONLINE
+            </span>
+
+        </div>
+
+        <div class="glass-card stat-card">
+
+            <span class="stat-title">
+                SERVER CODE
+            </span>
+
+            <h2>
+                CSE
+            </h2>
+
+            <button id="copyCodeBtn">
+                Copy Code
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section
+    class="links-section"
+    id="links"
+>
+
+    <div class="section-title">
+        QUICK LINKS
+    </div>
+
+    <div class="links-grid">
+
+        <a
+            href="https://discord.gg/f8S5vDsWnM"
+            target="_blank"
+            class="glass-card link-card"
+        >
+
+            <h3>Discord</h3>
+
+            <p>
+                Join the official CSE community.
+            </p>
+
+        </a>
+
+        <a
+            href="https://www.roblox.com/games/start?launchData=%7B%22psCode%22%3A%22CSE%22%7D&placeId=2534724415"
+            target="_blank"
+            class="glass-card link-card"
+        >
+
+            <h3>Roblox Server</h3>
+
+            <p>
+                Join the active ER:LC server.
+            </p>
+
+        </a>
+
+        <a
+            href="https://youtube.com/"
+            target="_blank"
+            class="glass-card link-card"
+        >
+
+            <h3>YouTube</h3>
+
+            <p>
+                Future event highlights & media.
+            </p>
+
+        </a>
+
+    </div>
+
+</section>
+
+<section
+    class="event-section"
+    id="event"
+>
+
+    <div class="section-title">
+        CURRENT EVENT
+    </div>
+
+    <div
+        class="glass-card current-event-card"
+        id="eventCard"
+    >
+
+        <div id="eventBanner"></div>
+
+        <div class="event-info">
+
+            <h2 id="eventName">
+                Loading...
+            </h2>
+
+            <p id="eventDescription">
+                Fetching current event...
+            </p>
+
+            <div class="event-meta">
+
+                <span id="eventHost"></span>
+
+                <span id="eventType"></span>
+
+                <span id="eventDifficulty"></span>
+
+                <span id="eventParticipants"></span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer class="main-footer">
+
+    <div class="footer-top">
+
+        <div class="footer-brand">
+
+            <img
+                src="logo.png"
+                class="footer-logo"
+            >
+
+            <div>
+
+                <h2>
+                    Central Summit Events
+                </h2>
+
+                <p>
+                    Professional ER:LC Event Community
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="footer-links">
+
+            <a href="#stats">
+                Stats
+            </a>
+
+            <a href="#event">
+                Current Event
+            </a>
+
+            <a href="#links">
+                Quick Links
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        © 2026 Central Summit Events
+
+    </div>
+
+</footer>
+
+<script src="app.js?v=1"></script>
+<script src="particles.js"></script>
+<script src="sounds.js"></script>
+
+</body>
+</html>
